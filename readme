@@ -1,0 +1,64 @@
+Draw by Lizard32
+========-=-=-=-=-------- - - - -
+About
+====-=-=---- - -
+-This is a simple raster image editor for 1:1 PNG files. Only 8 basic colors are supported, with no alpha channel.
+-It was supposed to be a little tool to make simple pixel art and to learn python. It is my first python program.
+-You may need to edit the code if you want to change some stuff like the colors or the window's size.
+
+ToDo
+====-=-=---- - -
+*Finish mouse support
+*Add touch support
+*Add shape tools
+*Add fill tool
+*Add better info
+*Change settings inside program
+
+Usage
+====-=-=---- - -
+"draw <file>"
+*If a file is not specified, the program will create an empty canvas of 16x16. The file will have a randomly generated name.
+*If a file is specified, the program will load it. Saving will overwrite the file.
+
+Keyboard
+====-=-=---- - -
+*ArrowKeys > Move cursor around
+*Spacebar > Draw at cursor position
+*NumberKeys > Select colors
+*Ctrl+W > Enable/Disable Mouse (experimental)
+*Ctrl+Q > Exit
+*Ctrl+S > Save file
+*Ctrl+N > New file
+*Ctrl+R > Hide/Show cursor & info
+*Ctrl+F > Fill entire canvas
+*Ctrl+X > Pick color behind cursor
+*Ctrl+Arrows
+*Shift+Arrows > Move drawing in canvas
+*Alt+Left/Right > Rotate canvas
+*Alt+Up/Down > Enlarge/Shrink canvas
+
+Mouse
+====-=-=---- - -
+*LeftBtn > Draw at cursor position
+*RightBtn > Pick color behind cursor
+*Wheel > Change selected color
+*Shift+MiddleBtn > Fill entire canvas
+*Shift+Wheel > Enlarge/Shrink canvas
+*Alt+Wheel > Rotate canvas
+
+Dependencies
+====-=-=---- - -
+*Python3
+*Pygame2
+
+Changelog
+====-=-=---- - -
+0.1
+==-=-- -
+initial release
+
+License
+====-=-=---- - -
+-Feel free to copy, modify, distribute and sell this code as you want.
+-No need for it to remain open. Just don't forget to give me some credit for the original work.
